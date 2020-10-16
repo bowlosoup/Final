@@ -6,11 +6,7 @@ public class tripCalculator {
 	public double fueleff;
 	public double distance;
 	public double gas;
-	int careff[] = {10,20,30};
-	
-	int bmw = careff[0];
-	int lexus = careff[1];
-	int toyota = careff[2];
+
 	
 	
 	public void tripCalculator()
@@ -33,6 +29,10 @@ public class tripCalculator {
 	
 	
 
+
+	
+	
+}
 
 	
 	
