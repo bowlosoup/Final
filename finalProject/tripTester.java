@@ -20,17 +20,12 @@ public class tripTester {
 		System.out.print("Starting fuel in litres: ");
 		double gas = scanner.nextDouble();
 		System.out.print("Which car will you be using\n 1: bmw\n 2: lexus \n 3: toyota \n 1");
-		int fueleff = scanner.nextInt();
+		double fueleff = scanner.nextDouble();
 	
 		System.out.print("How far are you going in kms?: ");
 		double distance = scanner.nextDouble();
-		System.out.println(calculate.totalfuel());
+		System.out.println(calculate.totalfuel(3));
 		// distance, starting fuel, fuel efficiency
-		
-		switch(careff[fueleff])
-		{
-		
-		}
 	}
 
 }
